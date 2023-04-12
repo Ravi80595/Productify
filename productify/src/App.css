@@ -1,0 +1,11 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* creates 3 columns with equal width */
+  grid-gap: 10px; /* adds a 10px gap between grid items */
+}
+
+.grid-item {
+  background-color: #ddd; /* sets a background color for the grid item */
+  padding: 20px; /* adds 20px of padding to the grid item */
+  text-align: center; /* centers the content of the grid item */
+}
