@@ -12,3 +12,12 @@ Once the installation is complete, run the command npm start to start the app. T
 If everything is set up correctly, you should see the app running in your browser. You can now make changes to the app code, save the changes, and the app will automatically update with the new changes in the browser.
 
 That's it! These are the basic steps to run app in your local system after cloning it from a repo.
+
+
+
+
+To integrate our app as an embedded app in a Shopify mock admin panel, we need to follow a few steps. First, we need to create a Shopify Partner account and create a new app in the Partner Dashboard. Then, we need to configure the app settings and generate the required API keys.
+
+Once we have the API keys, we can use them to authenticate our app and make API calls to the Shopify store. To embed our app in the Shopify admin panel, we can use the Shopify App Bridge library, which provides a set of components and utilities for building embedded apps.
+
+To use the Shopify App Bridge library, we need to install it in our React app using npm or yarn. Then, we can import the required components and use them to create the app interface and handle the API calls. Finally, we need to deploy our app to a secure server and add it as an embedded app in the Shopify Partner Dashboard.
